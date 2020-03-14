@@ -187,6 +187,12 @@ p {
   flex-direction: row;
   flex-wrap: nowrap;
 }
+@media (max-width: 500px) {
+  .nav-bar nav {
+    width: 90%;
+    margin-top: 2%;
+  }
+}
 .nav-bar nav a {
   font-size: 1.6rem;
   color: black;
