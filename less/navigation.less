@@ -1,1 +1,28 @@
-// Navigation code here
+.nav-bar {
+    .displayFlex(center, center, column);
+    background-color: @nav-bg;
+    border-bottom: 1px solid @nav-border;
+    // padding: 1% 0;
+
+    h1 {
+        font-size: 4.8rem;
+        margin: 1% 0;
+    }
+
+    nav {
+        width: 32%;
+        .displayFlex(space-between, center);
+
+        a {
+            font-size: 1.6rem;
+            color: black;
+            text-decoration: none;
+            margin-bottom: 1.5%;
+            transition: 0.3s;
+        }
+
+        a:hover {
+            color: darkgrey;
+        }
+    }
+}
